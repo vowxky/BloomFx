@@ -10,6 +10,7 @@ public class BloomFxAPI {
 
     public static void init() {
         PostProcessHandler.addInstance(BLOOM);
+        PostProcessHandler.addInstance(PHYSICAL_BLOOM);
     }
 
     public static BloomPostProcessor getBloom() {
