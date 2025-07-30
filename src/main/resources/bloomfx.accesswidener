@@ -1,0 +1,9 @@
+accessWidener v2 named
+
+accessible class net/minecraft/client/render/RenderPhase$Target
+
+accessible field net/minecraft/client/gl/PostEffectProcessor projectionMatrix Lorg/joml/Matrix4f;
+accessible method net/minecraft/client/gl/PostEffectProcessor setupProjectionMatrix ()V
+accessible field net/minecraft/client/gl/PostEffectProcessor width I
+accessible field net/minecraft/client/gl/PostEffectProcessor height I
+accessible field net/minecraft/client/gl/PostEffectProcessor mainTarget Lnet/minecraft/client/gl/Framebuffer;

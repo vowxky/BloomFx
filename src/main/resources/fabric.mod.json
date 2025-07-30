@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "bloomfx",
+  "version": "${version}",
+  "name": "BloomFx",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/bloomfx/icon.png",
+  "environment": "client",
+  "accessWidener" : "bloomfx.accesswidener",
+  "entrypoints": {
+    "client": [
+      "vowxky.bloomfx.client.BloomfxClient"
+    ],
+    "main": [
+      "vowxky.bloomfx.Bloomfx"
+    ]
+  },
+  "mixins": [
+    "bloomfx.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
